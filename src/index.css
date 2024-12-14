@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: url('https://images.unsplash.com/photo-1473181488821-2d23949a045a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #928972;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: top;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 24px;
+  line-height: 1;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create input {
+  width: 200px;
+  font-size: 1em;
+  font-weight: 500;
+  outline: none;
+  padding: 10px;
+}
+.create button {
+  width: 50px;
+  color: #ffffff;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2b8943;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #34a04f;
+  
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.myTasks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+align-items: center;
+border: 6px solid #683a32;
+
+  background: linear-gradient(to right, #e2d0be 40%, #97847a 100%);
+  color:darkslategrey;
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  gap: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+ 
+}
